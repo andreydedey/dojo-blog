@@ -1,6 +1,5 @@
-import "./App.css";
-import Navbar from "./Navbar";
-import Home from "./Home";
+import Navbar from "./Navbar/Navbar";
+import Home from "./Home/Home";
 
 function App() {
 	const title = "Welcome to the new blog";
@@ -11,6 +10,7 @@ function App() {
 			<div className="content">
 				<Home />
 			</div>
+			<p>{title}</p>
 		</div>
 	);
 }
