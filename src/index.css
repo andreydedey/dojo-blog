@@ -7,6 +7,7 @@
   font-family: "Quicksand";
   color: #333;
 }
+
 .navbar {
   padding: 20px;
   display: flex;
@@ -62,4 +63,95 @@
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 8px;
+}
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.blog-body {
+  margin: 20px 0;
+}
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button {
+  color: white;
+  background-color: #f1356d;
+  border-radius: 8px;
+  transition: 0.5s;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.create button:hover {
+  color: white;
+  background-color: #cc2255;
+  border-radius: 8px;
+}
+
+.not-found h2 {
+  font-size: 3rem;
+  margin-bottom: 8px;
+}
+
+.not-found p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.not-found a {
+  padding: 6px;
+  margin: 10px 0px;
+  text-decoration: none;
+  color: white;
+  background-color: #f1356d;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.not-found a:hover {
+  background-color: #cc2255;
 }

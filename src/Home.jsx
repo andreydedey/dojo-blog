@@ -5,8 +5,6 @@ import useFetch from './useFetch'
 const Home = () => {
   const { data, isPending, error } = useFetch('http://localhost:8000/blogs')
 
-  const [name, setName] = useState('mario')
-
   return (
     <div className="home">
       {/* {error && <div className="error">Could not fetch the data</div>} */}
